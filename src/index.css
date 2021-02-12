@@ -5,9 +5,61 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #d1d0d1;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+.mainBox {
+  background-color: #fbc0cb;
+  margin: 10% 25% 25% 25%;
+  width: 400px;
+  height: 540px;
+  border-style: solid;
+}
+
+.itemBox {
+  padding: 20px;
+  margin: auto;
+  height: 200px;
+  width: 300px;
+  border-style: solid 1px;
+  background-color: white;
+}
+
+.addButton {
+  font-size: 20px;
+  height: 50px;
+  width: 125px;
+  border-radius: 5px;
+  background-color: #91eb92;
+  align-items: center;
+  margin-top: 5%;
+  margin-left: 30%;
+}
+
+.submitButton {
+  align-items: center;
+  background-color: #91eb92;
+  font-size: 20px;
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: #91eb92;
+  position: relative;
+  margin: 5% 0% 0% 23%;
+}
+
+.inputBox {
+  margin-left: 25%;
+  margin-top: 10px;
+  height: 30px;
+  width: 175px;
 }
